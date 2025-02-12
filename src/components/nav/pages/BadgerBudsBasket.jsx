@@ -58,7 +58,7 @@ export default function BadgerBudsBasket(props) {
                     savedCats.map(savedCat => (
                         <Col key={savedCat.id} xs={12} md={6} lg={4}>
                             <div className="showMore">
-                                <img src={`https://raw.githubusercontent.com/CS571-S24/hw5-api-static-content/main/cats/${savedCat.imgIds[0]}`} alt={`A picture of ${savedCat.name}`} className="img-fluid" />
+                                <img src={`https://raw.githubusercontent.com/CS571-F24/hw5-api-static-content/main/cats/${savedCat.imgIds[0]}`} alt={`A picture of ${savedCat.name}`} className="img-fluid" />
                                 <h3>{savedCat.name}</h3>
                                 <Button variant="secondary" onClick={() => {
                                     console.log("Unselect button clicked", savedCat.id)

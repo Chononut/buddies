@@ -8,7 +8,7 @@ export default function BadgerBuds() {
     const [buds, setBuds] = useState([]);
 
     useEffect(() => {
-        fetch('https://cs571.org/api/s24/hw5/buds', {
+        fetch('https://cs571.org/rest/f24/hw5/buds', {
             headers: {
                 "X-CS571-ID": "bid_fa7b6e58f1e6e815b24f65eb00bee192a12b3ae27a632ad5cb809b460752b68e"
             }

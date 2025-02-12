@@ -16,7 +16,7 @@ return (
                     {cat.imgIds.map((imgId, index) => (
                         <Carousel.Item key = {index}>
                             <img
-                            src = {`https://raw.githubusercontent.com/CS571-S24/hw5-api-static-content/main/cats/${cat.imgIds[index]}`}
+                            src = {`https://raw.githubusercontent.com/CS571-F24/hw5-api-static-content/main/cats/${cat.imgIds[index]}`}
                             alt = {`Img of ${cat.name} ${index}`}
                             className = "photo"></img>
                         </Carousel.Item>
@@ -25,7 +25,7 @@ return (
                 <img
                 className="photo"
                 alt={"A picture of " + cat.name}
-                src = {`https://raw.githubusercontent.com/CS571-S24/hw5-api-static-content/main/cats/${cat.imgIds[0]}`} 
+                src = {`https://raw.githubusercontent.com/CS571-F24/hw5-api-static-content/main/cats/${cat.imgIds[0]}`} 
                 ></img>}
                 <p><strong>Gender:</strong>{cat.gender}</p>
                 <p><strong>Breed:</strong>{cat.breed}</p>
@@ -40,7 +40,7 @@ return (
             <div className="showLess">
                 <img 
                 alt = {"A picture of " + cat.name} 
-                src = {`https://raw.githubusercontent.com/CS571-S24/hw5-api-static-content/main/cats/${cat.imgIds[0]}`} 
+                src = {`https://raw.githubusercontent.com/CS571-F24/hw5-api-static-content/main/cats/${cat.imgIds[0]}`} 
                 className = "photo"></img>
                 <p><b>{cat.name}</b></p>
             </div>}
